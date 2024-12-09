@@ -79,5 +79,6 @@
         "vfile-reporter-position": "^0.1.7",
         "vfile-reporter-pretty": "^6.1.1"
     },
-    "name": "@vizex_ru/unified-latex"
+    "name": "@vizex_ru/unified-latex",
+    "version": "1.0.0"
 }
