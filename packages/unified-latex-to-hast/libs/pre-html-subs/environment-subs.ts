@@ -2,18 +2,18 @@ import cssesc from "cssesc";
 import {
     parseTabularSpec,
     TabularColumn,
-} from "@unified-latex/unified-latex-ctan/package/tabularx";
-import { htmlLike } from "@unified-latex/unified-latex-util-html-like";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { parseAlignEnvironment } from "@unified-latex/unified-latex-util-align";
+} from "@vizex_ru/unified-latex-ctan/package/tabularx";
+import { htmlLike } from "@vizex_ru/unified-latex-util-html-like";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { parseAlignEnvironment } from "@vizex_ru/unified-latex-util-align";
 import {
     getArgsContent,
     getNamedArgsContent,
-} from "@unified-latex/unified-latex-util-arguments";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+} from "@vizex_ru/unified-latex-util-arguments";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 import { wrapPars } from "../wrap-pars";
-import { VisitInfo } from "@unified-latex/unified-latex-util-visit";
+import { VisitInfo } from "@vizex_ru/unified-latex-util-visit";
 
 const ITEM_ARG_NAMES_REG = ["label"] as const;
 const ITEM_ARG_NAMES_BEAMER = [null, "label", null] as const;

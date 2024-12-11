@@ -16,7 +16,7 @@ this is used to split on `&` characters in the `align` environment.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-split
+npm install @vizex_ru/unified-latex-util-split
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

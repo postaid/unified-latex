@@ -1,9 +1,9 @@
-import * as Ast from "@unified-latex/unified-latex-types";
-import { getArgsContent } from "@unified-latex/unified-latex-util-arguments";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { getArgsContent } from "@vizex_ru/unified-latex-util-arguments";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 import { xcolorColorToHex } from "./xcolor";
-import { structuredClone } from "@unified-latex/structured-clone";
-import { deleteComments } from "@unified-latex/unified-latex-util-comments";
+import { structuredClone } from "@vizex_ru/structured-clone";
+import { deleteComments } from "@vizex_ru/unified-latex-util-comments";
 
 /**
  * Compute the hex representation of a color specified by an xcolor color command.

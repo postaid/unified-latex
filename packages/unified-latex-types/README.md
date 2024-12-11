@@ -16,7 +16,7 @@ If you're working with `unified-latex` ASTs.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-types
+npm install @vizex_ru/unified-latex-types
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

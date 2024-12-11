@@ -1,9 +1,9 @@
 import type * as Hast from "hast";
 import type * as Mdast from "mdast";
 import { Plugin, unified } from "unified";
-import type * as Ast from "@unified-latex/unified-latex-types";
-import { unifiedLatexToHast } from "@unified-latex/unified-latex-to-hast";
-import { PluginOptions as HtmlLikePluginOptions } from "@unified-latex/unified-latex-to-hast";
+import type * as Ast from "@vizex_ru/unified-latex-types";
+import { unifiedLatexToHast } from "@vizex_ru/unified-latex-to-hast";
+import { PluginOptions as HtmlLikePluginOptions } from "@vizex_ru/unified-latex-to-hast";
 import rehypeRemark, { Options as RehypeRemarkOptions } from "rehype-remark";
 import { defaultHandlers } from "./remark-handlers-defaults";
 

@@ -1,5 +1,5 @@
 import { Doc } from "prettier";
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import {
     hardline,
     join,
@@ -12,8 +12,8 @@ import {
 import {
     linebreak,
     printRaw,
-} from "@unified-latex/unified-latex-util-print-raw";
-import { parsePgfkeys } from "@unified-latex/unified-latex-util-pgfkeys";
+} from "@vizex_ru/unified-latex-util-print-raw";
+import { parsePgfkeys } from "@vizex_ru/unified-latex-util-pgfkeys";
 
 /**
  * Format a sequence of Pgfkeys key-value pairs. `nodes` will be parsed

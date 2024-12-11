@@ -3,7 +3,7 @@ import { Plugin } from "prettier";
 import { prettierPluginLatex } from "../../unified-latex-prettier";
 import { strToNodes } from "../../test-common";
 import { parsePgfkeys } from "../libs/pgfkeys-parser";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 
 /* eslint-env jest */
 

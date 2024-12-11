@@ -2,13 +2,13 @@ import { describe, expect, it } from "vitest";
 import { VFile } from "unified-lint-rule/lib";
 import util from "util";
 import { trimRenderInfo } from "../../unified-latex-util-render-info";
-import * as Ast from "@unified-latex/unified-latex-types/index";
-import { parse as parseArgspec } from "@unified-latex/unified-latex-util-argspec";
+import * as Ast from "@vizex_ru/unified-latex-types/index";
+import { parse as parseArgspec } from "@vizex_ru/unified-latex-util-argspec";
 import { gobbleArguments } from "../libs/gobble-arguments";
-import { processLatexToAstViaUnified } from "@unified-latex/unified-latex";
-import { arg, s, SP } from "@unified-latex/unified-latex-builder";
+import { processLatexToAstViaUnified } from "@vizex_ru/unified-latex";
+import { arg, s, SP } from "@vizex_ru/unified-latex-builder";
 import { strToNodesMinimal } from "../../test-common";
-import { scan } from "@unified-latex/unified-latex-util-scan";
+import { scan } from "@vizex_ru/unified-latex-util-scan";
 
 /* eslint-env jest */
 

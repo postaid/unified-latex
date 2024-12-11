@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import Prettier from "prettier";
 import util from "util";
-import { getParser } from "@unified-latex/unified-latex-util-parse";
+import { getParser } from "@vizex_ru/unified-latex-util-parse";
 import { toXml } from "xast-util-to-xml";
 import { xmlCompilePlugin } from "../libs/convert-to-pretext";
 import { unified } from "unified";

@@ -1,9 +1,9 @@
 import { describe, expect, it } from "vitest";
 import util from "util";
-import type * as Ast from "@unified-latex/unified-latex-types";
+import type * as Ast from "@vizex_ru/unified-latex-types";
 import { attachMacroArgs } from "../libs/attach-arguments";
 import { strToNodes } from "../../test-common";
-import { arg, s, SP } from "@unified-latex/unified-latex-builder";
+import { arg, s, SP } from "@vizex_ru/unified-latex-builder";
 
 /* eslint-env jest */
 

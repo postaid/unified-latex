@@ -3,9 +3,9 @@ import { VFile } from "unified-lint-rule/lib";
 import util from "util";
 import { trimRenderInfo } from "../../unified-latex-util-render-info";
 import type * as Ast from "../../unified-latex-types/index";
-import { parse as parseArgspec } from "@unified-latex/unified-latex-util-argspec";
+import { parse as parseArgspec } from "@vizex_ru/unified-latex-util-argspec";
 import { gobbleSingleArgument } from "../libs/gobble-single-argument";
-import { processLatexToAstViaUnified } from "@unified-latex/unified-latex";
+import { processLatexToAstViaUnified } from "@vizex_ru/unified-latex";
 
 /* eslint-env jest */
 

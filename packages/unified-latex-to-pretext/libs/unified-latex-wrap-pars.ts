@@ -1,7 +1,7 @@
 import { Plugin } from "unified";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { visit } from "@unified-latex/unified-latex-util-visit";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { visit } from "@vizex_ru/unified-latex-util-visit";
 import { wrapPars } from "./wrap-pars";
 import { isMappedEnviron } from "./pre-conversion-subs/break-on-boundaries";
 type PluginOptions = {

@@ -1,14 +1,14 @@
 import * as SystemeSpec from "./types";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { arrayJoin } from "@unified-latex/unified-latex-util-split";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { arrayJoin } from "@vizex_ru/unified-latex-util-split";
 import { parse } from "./parser";
-import { structuredClone } from "@unified-latex/structured-clone";
-import { deleteComments } from "@unified-latex/unified-latex-util-comments";
-import { visit } from "@unified-latex/unified-latex-util-visit";
-import { updateRenderInfo } from "@unified-latex/unified-latex-util-render-info";
-import { getArgsContent } from "@unified-latex/unified-latex-util-arguments";
+import { structuredClone } from "@vizex_ru/structured-clone";
+import { deleteComments } from "@vizex_ru/unified-latex-util-comments";
+import { visit } from "@vizex_ru/unified-latex-util-visit";
+import { updateRenderInfo } from "@vizex_ru/unified-latex-util-render-info";
+import { getArgsContent } from "@vizex_ru/unified-latex-util-arguments";
 
 const AMP: Ast.String = { type: "string", content: "&" };
 const SEP: Ast.Macro = { type: "macro", content: "\\" };

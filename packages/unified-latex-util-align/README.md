@@ -16,7 +16,7 @@ If you need to process the contents of an align environment for, e.g., pretty-pr
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-align
+npm install @vizex_ru/unified-latex-util-align
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

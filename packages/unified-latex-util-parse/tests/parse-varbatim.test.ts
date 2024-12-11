@@ -1,10 +1,10 @@
 import { describe, it, expect } from "vitest";
 import util from "util";
 import { parse } from "../libs/parse";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 import { parseMath } from "../libs/parse-math";
-import { trimRenderInfo } from "@unified-latex/unified-latex-util-render-info";
-import { SP, arg, args, m, s, env } from "@unified-latex/unified-latex-builder";
+import { trimRenderInfo } from "@vizex_ru/unified-latex-util-render-info";
+import { SP, arg, args, m, s, env } from "@vizex_ru/unified-latex-builder";
 
 /* eslint-env jest */
 

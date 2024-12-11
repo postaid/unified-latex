@@ -1,5 +1,5 @@
-import { arg, m } from "@unified-latex/unified-latex-builder";
-import * as Ast from "@unified-latex/unified-latex-types";
+import { arg, m } from "@vizex_ru/unified-latex-builder";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import { attributeName, tagName } from "./mangle";
 
 /**

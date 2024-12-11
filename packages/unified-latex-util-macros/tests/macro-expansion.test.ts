@@ -1,11 +1,11 @@
 import util from "util";
 import { describe, it, expect } from "vitest";
-import { m } from "@unified-latex/unified-latex-builder";
-import * as Ast from "@unified-latex/unified-latex-types/index";
+import { m } from "@vizex_ru/unified-latex-builder";
+import * as Ast from "@vizex_ru/unified-latex-types/index";
 import { attachMacroArgsInArray } from "../../unified-latex-util-arguments/libs/attach-arguments";
-import { trimRenderInfo } from "@unified-latex/unified-latex-util-render-info";
-import * as latexParser from "@unified-latex/unified-latex-util-parse/index";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+import { trimRenderInfo } from "@vizex_ru/unified-latex-util-render-info";
+import * as latexParser from "@vizex_ru/unified-latex-util-parse/index";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 import { expandMacros } from "../libs/expand-macros";
 import { createMacroExpander } from "../libs/newcommand";
 

@@ -2,8 +2,8 @@
  * This example shows how include your own macros for parsing.
  */
 import { unified } from "unified";
-import { unifiedLatexFromString } from "@unified-latex/unified-latex-util-parse";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+import { unifiedLatexFromString } from "@vizex_ru/unified-latex-util-parse";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 
 const TEX_SOURCE = String.raw`
 My \textbf{custom} \abc{macro}.

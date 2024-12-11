@@ -1,14 +1,14 @@
 /**
  * This is a test file to make sure that the unified-latex imports are working.
  */
-const { getParser } = require("@unified-latex/unified-latex-util-parse");
-const { printRaw } = require("@unified-latex/unified-latex-util-print-raw");
-const { toString } = require("@unified-latex/unified-latex-util-to-string");
+const { getParser } = require("@vizex_ru/unified-latex-util-parse");
+const { printRaw } = require("@vizex_ru/unified-latex-util-print-raw");
+const { toString } = require("@vizex_ru/unified-latex-util-to-string");
 // Test import to see if it works to import a specific rule
 const {
     unifiedLatexLintPreferSetlength,
-} = require("@unified-latex/unified-latex-lint/rules/unified-latex-lint-prefer-setlength");
-const { macros } = require("@unified-latex/unified-latex-ctan/package/latex2e");
+} = require("@vizex_ru/unified-latex-lint/rules/unified-latex-lint-prefer-setlength");
+const { macros } = require("@vizex_ru/unified-latex-ctan/package/latex2e");
 
 const content = String.raw`
 \begin{env}

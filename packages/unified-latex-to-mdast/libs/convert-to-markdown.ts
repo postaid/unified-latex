@@ -1,10 +1,10 @@
-import type * as Ast from "@unified-latex/unified-latex-types";
+import type * as Ast from "@vizex_ru/unified-latex-types";
 import {
     PluginOptions,
     unifiedLatexToMdast,
 } from "./unified-latex-plugin-to-mdast";
 import remarkStringify from "remark-stringify";
-import { processLatexViaUnified } from "@unified-latex/unified-latex";
+import { processLatexViaUnified } from "@vizex_ru/unified-latex";
 
 const _processor = processLatexViaUnified()
     .use(unifiedLatexToMdast)

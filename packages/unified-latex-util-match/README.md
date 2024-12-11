@@ -15,7 +15,7 @@ If you need a type-guard to ensure a node is of a certain type; for example, dur
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-match
+npm install @vizex_ru/unified-latex-util-match
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

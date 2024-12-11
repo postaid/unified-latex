@@ -6,10 +6,10 @@ import {
     unifiedLatexAstComplier,
     unifiedLatexFromStringMinimal,
     unifiedLatexProcessMacrosAndEnvironmentsWithMathReparse,
-} from "@unified-latex/unified-latex-util-parse";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
-import { macros as xcolorMacros } from "@unified-latex/unified-latex-ctan/package/xcolor";
-import { Root } from "@unified-latex/unified-latex-types";
+} from "@vizex_ru/unified-latex-util-parse";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
+import { macros as xcolorMacros } from "@vizex_ru/unified-latex-ctan/package/xcolor";
+import { Root } from "@vizex_ru/unified-latex-types";
 
 const TEX_SOURCE = String.raw`
 My \textbf{custom} \abc{macro}.

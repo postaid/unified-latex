@@ -1,6 +1,6 @@
 import { toXml } from "xast-util-to-xml";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { processLatexViaUnified } from "@unified-latex/unified-latex";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { processLatexViaUnified } from "@vizex_ru/unified-latex";
 import {
     unifiedLatexToPretext,
     PluginOptions,

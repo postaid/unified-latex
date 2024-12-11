@@ -2,7 +2,7 @@ import { describe, it, expect } from "vitest";
 import util from "util";
 import { unifiedLatexToMdast } from "../libs/unified-latex-plugin-to-mdast";
 import { convertToMarkdown } from "../libs/convert-to-markdown";
-import { unifiedLatexFromString } from "@unified-latex/unified-latex-util-parse";
+import { unifiedLatexFromString } from "@vizex_ru/unified-latex-util-parse";
 import { unified } from "unified";
 import remarkStringify from "remark-stringify";
 

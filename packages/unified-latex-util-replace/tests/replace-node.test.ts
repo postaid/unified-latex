@@ -1,10 +1,10 @@
 import util from "util";
-import { match } from "@unified-latex/unified-latex-util-match";
+import { match } from "@vizex_ru/unified-latex-util-match";
 import { replaceNode } from "../libs/replace-node";
-import { arg, s, SP } from "@unified-latex/unified-latex-builder";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+import { arg, s, SP } from "@vizex_ru/unified-latex-builder";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 import { strToNodes } from "../../test-common";
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 
 /* eslint-env jest */
 

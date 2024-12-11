@@ -1,4 +1,4 @@
-import { trimRenderInfo } from "@unified-latex/unified-latex-util-render-info";
+import { trimRenderInfo } from "@vizex_ru/unified-latex-util-render-info";
 import { VFile } from "unified-lint-rule/lib";
 import util from "util";
 import "../../test-common";

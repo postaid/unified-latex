@@ -1,6 +1,6 @@
-import * as Ast from "@unified-latex/unified-latex-types";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { EXIT, visit } from "@unified-latex/unified-latex-util-visit";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { EXIT, visit } from "@vizex_ru/unified-latex-util-visit";
 
 /**
  * Escape a string so that it can be used to build a regular expression.

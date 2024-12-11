@@ -7,7 +7,7 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 
 const PACKAGE_ROOT = path.join(
-    require.resolve("@unified-latex/unified-latex-prettier"),
+    require.resolve("@vizex_ru/unified-latex-prettier"),
     "..",
     ".."
 );

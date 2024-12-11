@@ -16,7 +16,7 @@ via `\usepackage{...}` or `\RequirePackage{...}`.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-packages
+npm install @vizex_ru/unified-latex-util-packages
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

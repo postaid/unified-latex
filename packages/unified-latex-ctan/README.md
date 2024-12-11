@@ -32,7 +32,7 @@ of by position.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-ctan
+npm install @vizex_ru/unified-latex-ctan
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

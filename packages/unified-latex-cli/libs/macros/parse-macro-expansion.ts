@@ -1,11 +1,11 @@
 import json5 from "json5";
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import {
     newcommandMacroToName,
     newcommandMacroToSpec,
     newcommandMacroToSubstitutionAst,
-} from "@unified-latex/unified-latex-util-macros";
-import { parse } from "@unified-latex/unified-latex-util-parse";
+} from "@vizex_ru/unified-latex-util-macros";
+import { parse } from "@vizex_ru/unified-latex-util-parse";
 
 /**
  * Parse a macro specification given on the command line as either a "\newcommand" string

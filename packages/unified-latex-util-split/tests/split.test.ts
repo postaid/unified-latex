@@ -1,6 +1,6 @@
 import util from "util";
 import { strToNodes } from "../../test-common";
-import { attachMacroArgs } from "@unified-latex/unified-latex-util-arguments";
+import { attachMacroArgs } from "@vizex_ru/unified-latex-util-arguments";
 import { splitOnMacro } from "../libs/split-on-macro";
 import { unsplitOnMacro } from "../libs/unsplit-on-macro";
 

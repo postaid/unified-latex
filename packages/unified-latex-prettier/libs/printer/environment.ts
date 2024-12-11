@@ -12,10 +12,10 @@ import {
     joinWithSoftline,
     formatDocArray,
 } from "./common";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
-import { parseAlignEnvironment } from "@unified-latex/unified-latex-util-align";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { trim } from "@unified-latex/unified-latex-util-trim";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
+import { parseAlignEnvironment } from "@vizex_ru/unified-latex-util-align";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { trim } from "@vizex_ru/unified-latex-util-trim";
 
 export function printVerbatimEnvironment(
     path: PrettierTypes.AstPath,

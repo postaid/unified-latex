@@ -1,8 +1,8 @@
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import * as SystemeSpec from "./types";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { decorateArrayForPegjs } from "@unified-latex/unified-latex-util-pegjs";
-import { SystemePegParser } from "@unified-latex/unified-latex-util-pegjs";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { decorateArrayForPegjs } from "@vizex_ru/unified-latex-util-pegjs";
+import { SystemePegParser } from "@vizex_ru/unified-latex-util-pegjs";
 
 type SystemeMatchers = {
     at?: string;

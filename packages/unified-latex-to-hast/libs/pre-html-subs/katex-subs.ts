@@ -1,9 +1,9 @@
 import {
     attachSystemeSettingsAsRenderInfo,
     systemeContentsToArray,
-} from "@unified-latex/unified-latex-ctan/package/systeme";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { getArgsContent } from "@unified-latex/unified-latex-util-arguments";
+} from "@vizex_ru/unified-latex-ctan/package/systeme";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { getArgsContent } from "@vizex_ru/unified-latex-util-arguments";
 import KATEX_SUPPORT_LIST from "../katex-support.json";
 
 const LEFT: Ast.Macro = { type: "macro", content: "left" };

@@ -15,7 +15,7 @@ If you want to look for particular AST nodes in an array; useful when making plu
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-scan
+npm install @vizex_ru/unified-latex-util-scan
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

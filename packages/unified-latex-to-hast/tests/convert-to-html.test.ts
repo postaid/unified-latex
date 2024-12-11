@@ -3,16 +3,16 @@ import Prettier from "prettier";
 import rehypeStringify from "rehype-stringify";
 import util from "util";
 import { unifiedLatexToHast } from "../libs/unified-latex-plugin-to-hast";
-import { htmlLike } from "@unified-latex/unified-latex-util-html-like";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+import { htmlLike } from "@vizex_ru/unified-latex-util-html-like";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 import { convertToHtml } from "../libs/convert-to-html";
-import { Node } from "@unified-latex/unified-latex-types";
+import { Node } from "@vizex_ru/unified-latex-types";
 import {
     getParser,
     unifiedLatexFromString,
-} from "@unified-latex/unified-latex-util-parse";
+} from "@vizex_ru/unified-latex-util-parse";
 import { unified } from "unified";
-import { getArgsContent } from "@unified-latex/unified-latex-util-arguments";
+import { getArgsContent } from "@vizex_ru/unified-latex-util-arguments";
 
 function normalizeHtml(str: string) {
     try {

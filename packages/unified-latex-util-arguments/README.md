@@ -23,7 +23,7 @@ and pass in the appropriate macro info instead.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-arguments
+npm install @vizex_ru/unified-latex-util-arguments
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

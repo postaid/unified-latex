@@ -28,11 +28,11 @@ async function main() {
             ];
             pkg.wireit["compile:esm"].dependencies = ["deps"];
 
-            // Compute the dependencies. They are all the `@unified-latex/*` packages
+            // Compute the dependencies. They are all the `@vizex_ru/*` packages
             const dependencies = (Object.keys(pkg.dependencies) as string[])
                 .map((s) =>
-                    s.startsWith("@unified-latex/")
-                        ? s.replace("@unified-latex/", "")
+                    s.startsWith("@vizex_ru/")
+                        ? s.replace("@vizex_ru/", "")
                         : null
                 )
                 .filter((s) => s !== null)

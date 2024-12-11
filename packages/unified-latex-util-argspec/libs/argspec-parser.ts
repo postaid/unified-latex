@@ -1,4 +1,4 @@
-import { ArgSpecPegParser as PegParser } from "@unified-latex/unified-latex-util-pegjs";
+import { ArgSpecPegParser as PegParser } from "@vizex_ru/unified-latex-util-pegjs";
 import * as ArgSpec from "./argspec-types";
 
 /**

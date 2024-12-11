@@ -3,7 +3,7 @@ import { unified } from "unified";
 import { VFile } from "unified-lint-rule/lib";
 import util from "util";
 import { trimRenderInfo } from "../../unified-latex-util-render-info";
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import {
     unifiedLatexAstComplier,
     unifiedLatexFromStringMinimal,

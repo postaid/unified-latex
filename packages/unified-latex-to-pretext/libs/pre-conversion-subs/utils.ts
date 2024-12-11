@@ -1,7 +1,7 @@
-import * as Ast from "@unified-latex/unified-latex-types";
-import { VisitInfo } from "@unified-latex/unified-latex-util-visit";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { VisitInfo } from "@vizex_ru/unified-latex-util-visit";
 import { VFile } from "unified-lint-rule/lib";
-import { s } from "@unified-latex/unified-latex-builder";
+import { s } from "@vizex_ru/unified-latex-builder";
 import { VFileMessage } from "vfile-message";
 
 /**

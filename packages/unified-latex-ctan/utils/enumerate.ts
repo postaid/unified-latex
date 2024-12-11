@@ -1,14 +1,14 @@
-import { arg } from "@unified-latex/unified-latex-builder";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
-import { updateRenderInfo } from "@unified-latex/unified-latex-util-render-info";
+import { arg } from "@vizex_ru/unified-latex-builder";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
+import { updateRenderInfo } from "@vizex_ru/unified-latex-util-render-info";
 import {
     lastSignificantNode,
     lastSignificantNodeIndex,
-} from "@unified-latex/unified-latex-util-replace";
-import { splitOnMacro } from "@unified-latex/unified-latex-util-split";
-import { trim, trimEnd } from "@unified-latex/unified-latex-util-trim";
+} from "@vizex_ru/unified-latex-util-replace";
+import { splitOnMacro } from "@vizex_ru/unified-latex-util-split";
+import { trim, trimEnd } from "@vizex_ru/unified-latex-util-trim";
 
 /**
  * Clean up any whitespace issues in an enumerate environment. In particular,

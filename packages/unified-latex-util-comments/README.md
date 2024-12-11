@@ -15,7 +15,7 @@ If you want to process comments in a `unified-latex` AST.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-comments
+npm install @vizex_ru/unified-latex-util-comments
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

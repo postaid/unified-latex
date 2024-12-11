@@ -17,7 +17,7 @@
     "compilerOptions": {
         "rootDir": "./packages",
         "paths": {
-            "@unified-latex/*": ["./packages/*"]
+            "@vizex_ru/*": ["./packages/*"]
         },
         "types": ["vitest/globals"]
     }

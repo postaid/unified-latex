@@ -16,7 +16,7 @@ If you are working on the internals of `unified-latex`.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-argspec
+npm install @vizex_ru/unified-latex-util-argspec
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

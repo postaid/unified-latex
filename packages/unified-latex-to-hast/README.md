@@ -26,11 +26,11 @@ For example,
 ```typescript
 import { unified } from "unified";
 import rehypeStringify from "rehype-stringify";
-import { htmlLike } from "@unified-latex/unified-latex-util-html-like";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
-import { unifiedLatexToHast } from "@unified-latex/unified-latex-to-hast";
-import { unifiedLatexFromString } from "@unified-latex/unified-latex-util-parse";
-import { getArgsContent } from "@unified-latex/unified-latex-util-arguments";
+import { htmlLike } from "@vizex_ru/unified-latex-util-html-like";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
+import { unifiedLatexToHast } from "@vizex_ru/unified-latex-to-hast";
+import { unifiedLatexFromString } from "@vizex_ru/unified-latex-util-parse";
+import { getArgsContent } from "@vizex_ru/unified-latex-util-arguments";
 
 const convert = (value) =>
     unified()
@@ -62,7 +62,7 @@ documentation for more details.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-to-hast
+npm install @vizex_ru/unified-latex-to-hast
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

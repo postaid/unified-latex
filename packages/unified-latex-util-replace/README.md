@@ -15,7 +15,7 @@ If you want to recursively replace particular AST nodes.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-replace
+npm install @vizex_ru/unified-latex-util-replace
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

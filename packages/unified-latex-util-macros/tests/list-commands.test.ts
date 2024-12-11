@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import util from "util";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw/index";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw/index";
 import { strToNodes } from "../../test-common";
 import { listNewcommands } from "../libs/list-newcommands";
 

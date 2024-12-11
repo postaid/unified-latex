@@ -1,4 +1,4 @@
-import { XColorPegParser } from "@unified-latex/unified-latex-util-pegjs";
+import { XColorPegParser } from "@vizex_ru/unified-latex-util-pegjs";
 import * as XColorSpec from "./types";
 
 const parseCache: Record<string, XColorSpec.Ast> = {};

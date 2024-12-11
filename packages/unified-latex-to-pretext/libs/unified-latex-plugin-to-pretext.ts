@@ -1,11 +1,11 @@
 import * as Xast from "xast";
 import { x } from "xastscript";
 import { Plugin, unified } from "unified";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { TypeGuard } from "@unified-latex/unified-latex-types";
-import { expandUnicodeLigatures } from "@unified-latex/unified-latex-util-ligatures";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { EXIT, visit } from "@unified-latex/unified-latex-util-visit";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { TypeGuard } from "@vizex_ru/unified-latex-types";
+import { expandUnicodeLigatures } from "@vizex_ru/unified-latex-util-ligatures";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { EXIT, visit } from "@vizex_ru/unified-latex-util-visit";
 import { toPretextWithLoggerFactory } from "./pretext-subs/to-pretext";
 import {
     unifiedLatexToPretextLike,

@@ -1,12 +1,12 @@
 import { describe, it, expect } from "vitest";
 import { VFile } from "unified-lint-rule/lib";
 import util from "util";
-import { trimRenderInfo } from "@unified-latex/unified-latex-util-render-info";
-import * as Ast from "@unified-latex/unified-latex-types/index";
-import { trim } from "@unified-latex/unified-latex-util-trim";
-import { processLatexToAstViaUnified } from "@unified-latex/unified-latex";
+import { trimRenderInfo } from "@vizex_ru/unified-latex-util-render-info";
+import * as Ast from "@vizex_ru/unified-latex-types/index";
+import { trim } from "@vizex_ru/unified-latex-util-trim";
+import { processLatexToAstViaUnified } from "@vizex_ru/unified-latex";
 import { PluginOptions as ParserPluginOptions } from "../libs/plugin-from-string";
-import * as AstBuilder from "@unified-latex/unified-latex-builder";
+import * as AstBuilder from "@vizex_ru/unified-latex-builder";
 
 /* eslint-env jest */
 

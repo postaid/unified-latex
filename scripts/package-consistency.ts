@@ -73,7 +73,7 @@ async function getImportsInDir(dirname): Promise<string[]> {
         console.log(packageJsonFile);
 
         const packageName = packageJson.name;
-        const computedPackageName = `@unified-latex/${path.basename(
+        const computedPackageName = `@vizex_ru/${path.basename(
             projectDir
         )}`;
         if (packageName !== computedPackageName) {
@@ -109,8 +109,8 @@ async function getImportsInDir(dirname): Promise<string[]> {
                 (r) => r.path
             ) as string[];
             const neededRefs = jsonImports
-                .filter((i) => i.startsWith("@unified-latex"))
-                .map((i) => (i.match(/@unified-latex\/(.*)/) || [])[1])
+                .filter((i) => i.startsWith("@vizex_ru"))
+                .map((i) => (i.match(/@vizex_ru\/(.*)/) || [])[1])
                 .map((i) => `../${i}`) as string[];
             const missingRefs = neededRefs.filter(
                 (r) => !tsconfigRefs.includes(r)

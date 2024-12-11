@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { processLatexViaUnified } from "@unified-latex/unified-latex";
+import { processLatexViaUnified } from "@vizex_ru/unified-latex";
 import { VFile } from "unified-lint-rule/lib";
 import util from "util";
 import { unifiedLatexWrapPars } from "../libs/unified-latex-wrap-pars";

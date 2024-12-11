@@ -1,8 +1,8 @@
 import { VFile } from "unified-lint-rule/lib";
 import util from "util";
 import { listPackages } from "..";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { processLatexToAstViaUnified } from "@unified-latex/unified-latex";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { processLatexToAstViaUnified } from "@vizex_ru/unified-latex";
 
 /* eslint-env jest */
 

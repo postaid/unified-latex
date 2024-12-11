@@ -1,7 +1,7 @@
 import * as Xast from "xast";
 import { x } from "xastscript";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 
 /**
  * Direct and un-intelligent conversion of `Ast.Node` to a XAST element.

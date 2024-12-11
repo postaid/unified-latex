@@ -1,7 +1,7 @@
-import * as Ast from "@unified-latex/unified-latex-types";
-import { visit } from "@unified-latex/unified-latex-util-visit";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { htmlLike } from "@unified-latex/unified-latex-util-html-like";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { visit } from "@vizex_ru/unified-latex-util-visit";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { htmlLike } from "@vizex_ru/unified-latex-util-html-like";
 import { VFileMessage } from "vfile-message";
 import { VFile } from "vfile";
 

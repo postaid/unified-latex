@@ -15,7 +15,7 @@ If you are converting LaTeX to plain text or HTML.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-ligatures
+npm install @vizex_ru/unified-latex-util-ligatures
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

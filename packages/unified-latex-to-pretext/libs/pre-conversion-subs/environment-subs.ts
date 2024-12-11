@@ -1,9 +1,9 @@
-import { htmlLike } from "@unified-latex/unified-latex-util-html-like";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { getNamedArgsContent } from "@unified-latex/unified-latex-util-arguments";
-import { match } from "@unified-latex/unified-latex-util-match";
+import { htmlLike } from "@vizex_ru/unified-latex-util-html-like";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { getNamedArgsContent } from "@vizex_ru/unified-latex-util-arguments";
+import { match } from "@vizex_ru/unified-latex-util-match";
 import { wrapPars } from "../wrap-pars";
-import { VisitInfo } from "@unified-latex/unified-latex-util-visit";
+import { VisitInfo } from "@vizex_ru/unified-latex-util-visit";
 import { VFile } from "vfile";
 import { makeWarningMessage } from "./utils";
 import { createTableFromTabular } from "./create-table-from-tabular";

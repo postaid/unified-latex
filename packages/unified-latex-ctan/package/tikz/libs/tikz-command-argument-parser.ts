@@ -1,15 +1,15 @@
-import { arg } from "@unified-latex/unified-latex-builder";
-import * as Ast from "@unified-latex/unified-latex-types";
+import { arg } from "@vizex_ru/unified-latex-builder";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import {
     ArgSpecAst as ArgSpec,
     parse as parseArgspec,
-} from "@unified-latex/unified-latex-util-argspec";
-import { Argument, ArgumentParser } from "@unified-latex/unified-latex-types";
-import { gobbleSingleArgument } from "@unified-latex/unified-latex-util-arguments";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { scan } from "@unified-latex/unified-latex-util-scan";
-import { trim } from "@unified-latex/unified-latex-util-trim";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+} from "@vizex_ru/unified-latex-util-argspec";
+import { Argument, ArgumentParser } from "@vizex_ru/unified-latex-types";
+import { gobbleSingleArgument } from "@vizex_ru/unified-latex-util-arguments";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { scan } from "@vizex_ru/unified-latex-util-scan";
+import { trim } from "@vizex_ru/unified-latex-util-trim";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 
 const OPTIONAL_ARGUMENT_ARG_SPEC = parseArgspec("o")[0];
 

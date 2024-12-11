@@ -1,9 +1,9 @@
 import { pointStart, pointEnd } from "unist-util-position";
 import { lintRule } from "unified-lint-rule";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { prefixMatch, Trie } from "@unified-latex/unified-latex-util-scan";
-import { visit } from "@unified-latex/unified-latex-util-visit";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { prefixMatch, Trie } from "@vizex_ru/unified-latex-util-scan";
+import { visit } from "@vizex_ru/unified-latex-util-visit";
 
 const OPERATOR_NAMES = [
     "Pr",

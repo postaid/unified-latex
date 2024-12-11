@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import util from "util";
-import { getParser } from "@unified-latex/unified-latex-util-parse";
-import { reportMacrosUnsupportedByKatex } from "@unified-latex/unified-latex-to-pretext/libs/pre-conversion-subs/report-unsupported-macro-katex";
+import { getParser } from "@vizex_ru/unified-latex-util-parse";
+import { reportMacrosUnsupportedByKatex } from "@vizex_ru/unified-latex-to-pretext/libs/pre-conversion-subs/report-unsupported-macro-katex";
 
 // Make console.log pretty-print by default
 const origLog = console.log;

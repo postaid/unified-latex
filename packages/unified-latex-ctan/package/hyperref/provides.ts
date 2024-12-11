@@ -1,7 +1,7 @@
 import {
     MacroInfoRecord,
     EnvInfoRecord,
-} from "@unified-latex/unified-latex-types";
+} from "@vizex_ru/unified-latex-types";
 
 export const macros: MacroInfoRecord = {
     hypersetup: {

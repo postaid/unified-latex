@@ -1,4 +1,4 @@
-import type * as Ast from "@unified-latex/unified-latex-types";
+import type * as Ast from "@vizex_ru/unified-latex-types";
 
 type CoercibleNode = string | Ast.Node;
 type CoercibleArgument = null | CoercibleNode | Ast.Argument;

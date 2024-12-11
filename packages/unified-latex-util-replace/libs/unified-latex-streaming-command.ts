@@ -1,8 +1,8 @@
 import { Plugin } from "unified";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { trimEnd, trimStart } from "@unified-latex/unified-latex-util-trim";
-import { visit } from "@unified-latex/unified-latex-util-visit";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { trimEnd, trimStart } from "@vizex_ru/unified-latex-util-trim";
+import { visit } from "@vizex_ru/unified-latex-util-visit";
 import { replaceStreamingCommand } from "./replace-streaming-command";
 import { replaceNodeDuringVisit } from "./replace-node-during-visit";
 

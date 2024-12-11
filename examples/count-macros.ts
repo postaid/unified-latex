@@ -1,10 +1,10 @@
 /**
  * This example shows how to count macros in a tex string and print out statistics.
  */
-import { getParser } from "@unified-latex/unified-latex-util-parse";
-import { visit } from "@unified-latex/unified-latex-util-visit";
-import { anyMacro } from "@unified-latex/unified-latex-util-match";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+import { getParser } from "@vizex_ru/unified-latex-util-parse";
+import { visit } from "@vizex_ru/unified-latex-util-visit";
+import { anyMacro } from "@vizex_ru/unified-latex-util-match";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 
 const TEX_SOURCE = String.raw`
 This is \textbf{an} example of a \LaTeX{} document with \textit{some} macros.

@@ -1,9 +1,9 @@
-import * as Ast from "@unified-latex/unified-latex-types";
-import { match } from "@unified-latex/unified-latex-util-match";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { match } from "@vizex_ru/unified-latex-util-match";
 import {
     AlignEnvironmentPegParser,
     decorateArrayForPegjs,
-} from "@unified-latex/unified-latex-util-pegjs";
+} from "@vizex_ru/unified-latex-util-pegjs";
 
 // The types returned by the grammar
 interface RowItems {

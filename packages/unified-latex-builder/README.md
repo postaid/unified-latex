@@ -16,7 +16,7 @@ If you want to programmatically create `Ast.Node` nodes.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-builder
+npm install @vizex_ru/unified-latex-builder
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

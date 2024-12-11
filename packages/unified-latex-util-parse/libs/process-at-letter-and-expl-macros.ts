@@ -1,10 +1,10 @@
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import { Plugin } from "unified";
-import { reparseExpl3AndAtLetterRegions } from "@unified-latex/unified-latex-util-catcode";
+import { reparseExpl3AndAtLetterRegions } from "@vizex_ru/unified-latex-util-catcode";
 import {
     hasReparsableMacroNames,
     reparseMacroNames,
-} from "@unified-latex/unified-latex-util-catcode";
+} from "@vizex_ru/unified-latex-util-catcode";
 
 type PluginOptions =
     | {

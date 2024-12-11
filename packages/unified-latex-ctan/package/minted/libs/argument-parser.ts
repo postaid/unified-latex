@@ -1,9 +1,9 @@
-import { arg } from "@unified-latex/unified-latex-builder";
-import { Argument, ArgumentParser } from "@unified-latex/unified-latex-types";
-import { parse as parseArgspec } from "@unified-latex/unified-latex-util-argspec";
-import { Node } from "@unified-latex/unified-latex-util-argspec/libs/argspec-types";
-import { gobbleSingleArgument } from "@unified-latex/unified-latex-util-arguments";
-import { match } from "@unified-latex/unified-latex-util-match";
+import { arg } from "@vizex_ru/unified-latex-builder";
+import { Argument, ArgumentParser } from "@vizex_ru/unified-latex-types";
+import { parse as parseArgspec } from "@vizex_ru/unified-latex-util-argspec";
+import { Node } from "@vizex_ru/unified-latex-util-argspec/libs/argspec-types";
+import { gobbleSingleArgument } from "@vizex_ru/unified-latex-util-arguments";
+import { match } from "@vizex_ru/unified-latex-util-match";
 
 const argSpecM = parseArgspec("m")[0];
 const argSpecO = parseArgspec("o")[0];

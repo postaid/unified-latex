@@ -1,9 +1,9 @@
 import { VFile } from "unified-lint-rule/lib";
 import util from "util";
-import { arg, m } from "@unified-latex/unified-latex-builder";
-import * as Ast from "@unified-latex/unified-latex-types";
+import { arg, m } from "@vizex_ru/unified-latex-builder";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import { unifiedLatexReplaceStreamingCommands } from "../libs/unified-latex-streaming-command";
-import { processLatexViaUnified } from "@unified-latex/unified-latex";
+import { processLatexViaUnified } from "@vizex_ru/unified-latex";
 
 /* eslint-env jest */
 

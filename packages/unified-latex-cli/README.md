@@ -54,7 +54,7 @@ unified-latex . --no-stdout --lint-all --watch
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-cli
+npm install @vizex_ru/unified-latex-cli
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

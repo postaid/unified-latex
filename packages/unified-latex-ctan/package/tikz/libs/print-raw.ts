@@ -1,5 +1,5 @@
-import { printRaw as latexPrintRaw } from "@unified-latex/unified-latex-util-print-raw";
-import { trim } from "@unified-latex/unified-latex-util-trim";
+import { printRaw as latexPrintRaw } from "@vizex_ru/unified-latex-util-print-raw";
+import { trim } from "@vizex_ru/unified-latex-util-trim";
 import * as TikzSpec from "./types";
 
 /**

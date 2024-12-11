@@ -5,11 +5,11 @@ import { unified } from "unified";
 import {
     unifiedLatexAstComplier,
     unifiedLatexFromString,
-} from "@unified-latex/unified-latex-util-parse";
-import { unifiedLatexStringCompiler } from "@unified-latex/unified-latex-util-to-string";
-import { visit } from "@unified-latex/unified-latex-util-visit";
-import { match } from "@unified-latex/unified-latex-util-match";
-import type { Root } from "@unified-latex/unified-latex-types";
+} from "@vizex_ru/unified-latex-util-parse";
+import { unifiedLatexStringCompiler } from "@vizex_ru/unified-latex-util-to-string";
+import { visit } from "@vizex_ru/unified-latex-util-visit";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import type { Root } from "@vizex_ru/unified-latex-types";
 
 const TEX_SOURCE = String.raw`
 This is \textbf{an} example of a \LaTeX{} document with \textit{some} macros.

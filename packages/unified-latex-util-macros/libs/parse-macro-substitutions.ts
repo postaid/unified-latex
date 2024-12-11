@@ -1,7 +1,7 @@
-import { MacroSubstitutionPegParser } from "@unified-latex/unified-latex-util-pegjs";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { decorateArrayForPegjs } from "@unified-latex/unified-latex-util-pegjs";
+import { MacroSubstitutionPegParser } from "@vizex_ru/unified-latex-util-pegjs";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { decorateArrayForPegjs } from "@vizex_ru/unified-latex-util-pegjs";
 
 // The types returned by the grammar
 

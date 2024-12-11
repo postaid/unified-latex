@@ -16,7 +16,7 @@ that treats environments differently.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-environments
+npm install @vizex_ru/unified-latex-util-environments
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

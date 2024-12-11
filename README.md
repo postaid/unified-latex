@@ -1,6 +1,6 @@
 # unified-latex
 
-Monorepo for `@unified-latex` packages. See the auto-generated [**Documentation**](https://siefkenj.github.io/unified-latex) for usage details.
+Monorepo for `@vizex_ru` packages. See the auto-generated [**Documentation**](https://siefkenj.github.io/unified-latex) for usage details.
 
 These packages provide a JS/TypeScript interface for creating, manipulating, and printing LaTeX Abstract Syntax Trees (ASTs).
 
@@ -58,7 +58,7 @@ If typescript complains about imports not existing in `rootDir`, it probably mea
 particular workspace. (References are how typescript divides projects into different pieces so that it doesn't need to recompile every project).
 Add the imported project to the `"references"` field of the `tsconfig.json`.
 
-Note that all `tsconfig.json` files extend `tsconfig.build.json`, which has some special configuration options to forward imports of `@unified-latex/...`
+Note that all `tsconfig.json` files extend `tsconfig.build.json`, which has some special configuration options to forward imports of `@vizex_ru/...`
 directly to the correct folder during development.
 
 ### Testing

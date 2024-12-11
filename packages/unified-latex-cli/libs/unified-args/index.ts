@@ -10,9 +10,9 @@ import {
     Callback as EngineCallback,
     Context as EngineContext,
 } from "unified-engine";
-import { unifiedLatexToHast } from "@unified-latex/unified-latex-to-hast";
-import { unifiedLatexToMdast } from "@unified-latex/unified-latex-to-mdast";
-import { unifiedLatexToPretext } from "@unified-latex/unified-latex-to-pretext";
+import { unifiedLatexToHast } from "@vizex_ru/unified-latex-to-hast";
+import { unifiedLatexToMdast } from "@vizex_ru/unified-latex-to-mdast";
+import { unifiedLatexToPretext } from "@vizex_ru/unified-latex-to-pretext";
 import { options, Options } from "./options";
 import { availableLints } from "../lints";
 import { statsJsonPlugin, statsPlugin } from "../stats";
@@ -20,7 +20,7 @@ import { expandMacrosPlugin } from "../macros/expand-macros-plugin";
 import { attachMacroArgsPlugin } from "../macros/attach-macro-args-plugin";
 import { prettyPrintHtmlPlugin } from "../html/format";
 import { expandDocumentMacrosPlugin } from "../macros/expand-document-macros-plugin";
-import { PluginOptions } from "@unified-latex/unified-latex-util-parse";
+import { PluginOptions } from "@vizex_ru/unified-latex-util-parse";
 import remarkStringify from "remark-stringify";
 
 // Fake TTY stream.

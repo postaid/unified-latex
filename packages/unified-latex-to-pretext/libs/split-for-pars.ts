@@ -1,6 +1,6 @@
-import * as Ast from "@unified-latex/unified-latex-types";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { trim } from "@unified-latex/unified-latex-util-trim";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { trim } from "@vizex_ru/unified-latex-util-trim";
 
 /**
  * Takes an array of nodes and splits it into chunks that should be wrapped

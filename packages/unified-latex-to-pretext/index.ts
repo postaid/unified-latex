@@ -27,11 +27,11 @@ export * from "./libs/convert-to-pretext";
  * ```typescript
  * import { unified } from "unified";
  * import rehypeStringify from "rehype-stringify";
- * import { htmlLike } from "@unified-latex/unified-latex-util-html-like";
- * import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
- * import { unifiedLatexToPretext } from "@unified-latex/unified-latex-to-pretext";
- * import { unifiedLatexFromString } from "@unified-latex/unified-latex-util-parse";
- * import { getArgsContent } from "@unified-latex/unified-latex-util-arguments";
+ * import { htmlLike } from "@vizex_ru/unified-latex-util-html-like";
+ * import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
+ * import { unifiedLatexToPretext } from "@vizex_ru/unified-latex-to-pretext";
+ * import { unifiedLatexFromString } from "@vizex_ru/unified-latex-util-parse";
+ * import { getArgsContent } from "@vizex_ru/unified-latex-util-arguments";
  *
  * const convert = (value) =>
  *     unified()

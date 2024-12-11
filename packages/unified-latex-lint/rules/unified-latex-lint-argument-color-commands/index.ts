@@ -1,17 +1,17 @@
 import { lintRule } from "unified-lint-rule";
-import { m, s } from "@unified-latex/unified-latex-builder";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { visit } from "@unified-latex/unified-latex-util-visit";
+import { m, s } from "@vizex_ru/unified-latex-builder";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { visit } from "@vizex_ru/unified-latex-util-visit";
 import { hasParbreak } from "../../utils/has-parbreak";
-import { trimEnd, trimStart } from "@unified-latex/unified-latex-util-trim";
-import { colorToTextcolorMacro } from "@unified-latex/unified-latex-ctan/package/xcolor";
+import { trimEnd, trimStart } from "@vizex_ru/unified-latex-util-trim";
+import { colorToTextcolorMacro } from "@vizex_ru/unified-latex-ctan/package/xcolor";
 import {
     firstSignificantNode,
     replaceNodeDuringVisit,
     replaceStreamingCommand,
-} from "@unified-latex/unified-latex-util-replace";
+} from "@vizex_ru/unified-latex-util-replace";
 
 const REPLACEMENTS: Record<
     string,

@@ -16,7 +16,7 @@ If you need to identify regions of the AST that need to be reparsed.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-catcode
+npm install @vizex_ru/unified-latex-util-catcode
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

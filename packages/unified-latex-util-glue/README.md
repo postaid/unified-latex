@@ -16,7 +16,7 @@ linters.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-glue
+npm install @vizex_ru/unified-latex-util-glue
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

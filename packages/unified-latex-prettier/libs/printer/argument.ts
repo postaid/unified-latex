@@ -1,9 +1,9 @@
 import type { Doc } from "prettier";
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import * as PrettierTypes from "./prettier-types";
 import { getNodeInfo, formatDocArray, hardline, ifBreak, fill } from "./common";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { trim } from "@unified-latex/unified-latex-util-trim";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { trim } from "@vizex_ru/unified-latex-util-trim";
 import { printTikzArgument } from "./tikz";
 import { printArgumentPgfkeys } from "./print-argument-pgfkeys";
 

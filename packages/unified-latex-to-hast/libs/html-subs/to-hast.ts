@@ -3,9 +3,9 @@ import { h } from "hastscript";
 import {
     extractFromHtmlLike,
     isHtmlLikeTag,
-} from "@unified-latex/unified-latex-util-html-like";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+} from "@vizex_ru/unified-latex-util-html-like";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 
 function formatNodeForError(node: Ast.Node | any): string {
     try {

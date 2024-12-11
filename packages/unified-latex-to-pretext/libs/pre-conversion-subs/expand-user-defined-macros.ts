@@ -1,11 +1,11 @@
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import {
     expandMacrosExcludingDefinitions,
     listNewcommands,
-} from "@unified-latex/unified-latex-util-macros";
-import { attachMacroArgs } from "@unified-latex/unified-latex-util-arguments";
-import { anyMacro } from "@unified-latex/unified-latex-util-match";
-import { EXIT, visit } from "@unified-latex/unified-latex-util-visit";
+} from "@vizex_ru/unified-latex-util-macros";
+import { attachMacroArgs } from "@vizex_ru/unified-latex-util-arguments";
+import { anyMacro } from "@vizex_ru/unified-latex-util-match";
+import { EXIT, visit } from "@vizex_ru/unified-latex-util-visit";
 
 type NewCommandSpec = ReturnType<typeof listNewcommands>[number];
 

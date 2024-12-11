@@ -23,7 +23,7 @@ unifiedArgs({
     ignoreName: ".unifiedlatexignore",
     packageField: "unifiedLatexConfig",
     rcName: ".unifiedlatexrc",
-    pluginPrefix: "@unified-latex/",
+    pluginPrefix: "@vizex_ru/",
 });
 
 // NOTE: The docstring comment must be the last item in the index.ts file!

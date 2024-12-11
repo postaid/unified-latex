@@ -16,7 +16,7 @@ if you are building a plugin for `unified()` that manipulates LaTeX.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex
+npm install @vizex_ru/unified-latex
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

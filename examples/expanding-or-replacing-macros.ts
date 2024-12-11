@@ -2,18 +2,18 @@
  * This example shows how expand or replace macros.
  */
 import { unified, Plugin } from "unified";
-import { unifiedLatexFromString } from "@unified-latex/unified-latex-util-parse";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
-import { replaceNode } from "@unified-latex/unified-latex-util-replace";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { visit } from "@unified-latex/unified-latex-util-visit";
+import { unifiedLatexFromString } from "@vizex_ru/unified-latex-util-parse";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
+import { replaceNode } from "@vizex_ru/unified-latex-util-replace";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { visit } from "@vizex_ru/unified-latex-util-visit";
 import {
     expandMacrosExcludingDefinitions,
     listNewcommands,
-} from "@unified-latex/unified-latex-util-macros";
-import { attachMacroArgs } from "@unified-latex/unified-latex-util-arguments";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { unifiedLatexStringCompiler } from "@unified-latex/unified-latex-util-to-string";
+} from "@vizex_ru/unified-latex-util-macros";
+import { attachMacroArgs } from "@vizex_ru/unified-latex-util-arguments";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { unifiedLatexStringCompiler } from "@vizex_ru/unified-latex-util-to-string";
 
 const TEX_SOURCE = String.raw`
 \newcommand{\abc}[1]{ABC}

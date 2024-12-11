@@ -1,14 +1,14 @@
 import { describe, it, expect } from "vitest";
 import util from "util";
-import { parse } from "@unified-latex/unified-latex-util-parse";
-import { replaceNode } from "@unified-latex/unified-latex-util-replace";
+import { parse } from "@vizex_ru/unified-latex-util-parse";
+import { replaceNode } from "@vizex_ru/unified-latex-util-replace";
 import {
     attachNeededRenderInfo,
     katexSpecificMacroReplacements,
 } from "../libs/pre-html-subs/katex-subs";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { Macro, Node } from "@unified-latex/unified-latex-types/index";
-import { trimRenderInfo } from "@unified-latex/unified-latex-util-render-info";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { Macro, Node } from "@vizex_ru/unified-latex-types/index";
+import { trimRenderInfo } from "@vizex_ru/unified-latex-util-render-info";
 
 // Make console.log pretty-print by default
 const origLog = console.log;

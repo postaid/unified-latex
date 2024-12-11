@@ -1,15 +1,15 @@
 import * as Hast from "hast";
 import { Plugin, unified } from "unified";
-import { unifiedLatexLintNoTexFontShapingCommands } from "@unified-latex/unified-latex-lint/rules/unified-latex-lint-no-tex-font-shaping-commands";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { deleteComments } from "@unified-latex/unified-latex-util-comments";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+import { unifiedLatexLintNoTexFontShapingCommands } from "@vizex_ru/unified-latex-lint/rules/unified-latex-lint-no-tex-font-shaping-commands";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { deleteComments } from "@vizex_ru/unified-latex-util-comments";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 import {
     replaceNode,
     unifiedLatexReplaceStreamingCommands,
-} from "@unified-latex/unified-latex-util-replace";
-import { EXIT, visit } from "@unified-latex/unified-latex-util-visit";
+} from "@vizex_ru/unified-latex-util-replace";
+import { EXIT, visit } from "@vizex_ru/unified-latex-util-visit";
 import { environmentReplacements as _environmentReplacements } from "./pre-html-subs/environment-subs";
 import {
     attachNeededRenderInfo,

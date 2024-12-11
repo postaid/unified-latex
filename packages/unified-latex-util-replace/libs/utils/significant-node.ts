@@ -1,5 +1,5 @@
-import * as Ast from "@unified-latex/unified-latex-types";
-import { match } from "@unified-latex/unified-latex-util-match";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { match } from "@vizex_ru/unified-latex-util-match";
 
 /**
  * Returns the first non-whitespace/non-comment node in `nodes`. If there is no such

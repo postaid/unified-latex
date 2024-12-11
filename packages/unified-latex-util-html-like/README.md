@@ -28,7 +28,7 @@ to HTML, the html-like macros will be rendered as `<br />` tags.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-html-like
+npm install @vizex_ru/unified-latex-util-html-like
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

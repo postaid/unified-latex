@@ -1,10 +1,10 @@
 import { describe, it, expect } from "vitest";
-import { processLatexViaUnified } from "@unified-latex/unified-latex";
+import { processLatexViaUnified } from "@vizex_ru/unified-latex";
 import { VFile } from "vfile";
 import util from "util";
 import { unifiedLatexToPretextLike } from "../libs/unified-latex-plugin-to-pretext-like";
-import { htmlLike } from "@unified-latex/unified-latex-util-html-like";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+import { htmlLike } from "@vizex_ru/unified-latex-util-html-like";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 
 /* eslint-env jest */
 

@@ -1,9 +1,9 @@
-import { xcolorMacroToHex } from "@unified-latex/unified-latex-ctan/package/xcolor";
-import { htmlLike } from "@unified-latex/unified-latex-util-html-like";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { getArgsContent } from "@unified-latex/unified-latex-util-arguments";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
-import { VisitInfo } from "@unified-latex/unified-latex-util-visit";
+import { xcolorMacroToHex } from "@vizex_ru/unified-latex-ctan/package/xcolor";
+import { htmlLike } from "@vizex_ru/unified-latex-util-html-like";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { getArgsContent } from "@vizex_ru/unified-latex-util-arguments";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
+import { VisitInfo } from "@vizex_ru/unified-latex-util-visit";
 
 /**
  * Factory function that generates html-like macros that wrap their contents.

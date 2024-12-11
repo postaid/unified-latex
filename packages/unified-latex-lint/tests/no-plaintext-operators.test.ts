@@ -1,6 +1,6 @@
 import { VFile } from "unified-lint-rule/lib";
 import util from "util";
-import { processLatexViaUnified } from "@unified-latex/unified-latex";
+import { processLatexViaUnified } from "@vizex_ru/unified-latex";
 import { unifiedLatexLintNoPlaintextOperators } from "../rules/unified-latex-lint-no-plaintext-operators";
 
 /* eslint-env jest */

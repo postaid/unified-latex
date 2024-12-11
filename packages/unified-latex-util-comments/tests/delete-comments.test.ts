@@ -1,5 +1,5 @@
 import util from "util";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 import { deleteComments } from "../libs/delete-comments";
 import { strToNodes } from "../../test-common";
 

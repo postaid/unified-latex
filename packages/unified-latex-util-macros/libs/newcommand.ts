@@ -1,10 +1,10 @@
-import { structuredClone } from "@unified-latex/structured-clone";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
-import { replaceNode } from "@unified-latex/unified-latex-util-replace";
-import { visit } from "@unified-latex/unified-latex-util-visit";
-import { getNamedArgsContent } from "@unified-latex/unified-latex-util-arguments";
-import { parseMinimal } from "@unified-latex/unified-latex-util-parse";
+import { structuredClone } from "@vizex_ru/structured-clone";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
+import { replaceNode } from "@vizex_ru/unified-latex-util-replace";
+import { visit } from "@vizex_ru/unified-latex-util-visit";
+import { getNamedArgsContent } from "@vizex_ru/unified-latex-util-arguments";
+import { parseMinimal } from "@vizex_ru/unified-latex-util-parse";
 import {
     HashNumber,
     parseMacroSubstitutions,

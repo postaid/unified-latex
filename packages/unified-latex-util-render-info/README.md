@@ -17,7 +17,7 @@ of an `Ast.Node`.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-render-info
+npm install @vizex_ru/unified-latex-util-render-info
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

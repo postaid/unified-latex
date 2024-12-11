@@ -1,4 +1,4 @@
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import { type FrozenProcessor, unified } from "unified";
 import { unifiedLatexFromString } from "./plugin-from-string";
 import type { PluginOptions } from "./plugin-from-string";

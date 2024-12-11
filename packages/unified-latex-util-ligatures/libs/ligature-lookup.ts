@@ -1,6 +1,6 @@
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import unicodeLigatures from "./ligature-macros.json";
-import { match } from "@unified-latex/unified-latex-util-match";
+import { match } from "@vizex_ru/unified-latex-util-match";
 
 function makeString(content: string): Ast.String {
     return { type: "string", content };

@@ -1,5 +1,5 @@
 import type { Plugin } from "unified";
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import { trim } from "./trim";
 
 type PluginOptions = void;

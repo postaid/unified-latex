@@ -2,11 +2,11 @@ import { describe, it, expect } from "vitest";
 import Prettier from "prettier";
 import rehypeStringify from "rehype-stringify";
 import util from "util";
-import { processLatexViaUnified } from "@unified-latex/unified-latex";
+import { processLatexViaUnified } from "@vizex_ru/unified-latex";
 import { unifiedLatexToHast } from "../libs/unified-latex-plugin-to-hast";
-import { htmlLike } from "@unified-latex/unified-latex-util-html-like";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
-import { match } from "@unified-latex/unified-latex-util-match";
+import { htmlLike } from "@vizex_ru/unified-latex-util-html-like";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
+import { match } from "@vizex_ru/unified-latex-util-match";
 
 function normalizeHtml(str: string) {
     try {

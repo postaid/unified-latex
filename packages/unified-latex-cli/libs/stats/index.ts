@@ -1,7 +1,7 @@
-import * as Ast from "@unified-latex/unified-latex-types";
-import { listPackages } from "@unified-latex/unified-latex-util-packages";
-import { listNewcommands } from "@unified-latex/unified-latex-util-macros";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { listPackages } from "@vizex_ru/unified-latex-util-packages";
+import { listNewcommands } from "@vizex_ru/unified-latex-util-macros";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 import { Plugin } from "unified";
 import { enclosingPosition } from "./enclosing-position";
 

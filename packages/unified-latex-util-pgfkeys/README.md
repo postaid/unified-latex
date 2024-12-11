@@ -17,7 +17,7 @@ If you want to parse or manipulate macros/environments with pgfkeys-style argume
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-pgfkeys
+npm install @vizex_ru/unified-latex-util-pgfkeys
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

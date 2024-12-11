@@ -1,5 +1,5 @@
 import type { Doc } from "prettier";
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import * as PrettierTypes from "./prettier-types";
 import {
     getNodeInfo,
@@ -14,15 +14,15 @@ import {
     softline,
     fill,
 } from "./common";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { trim } from "@unified-latex/unified-latex-util-trim";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { trim } from "@vizex_ru/unified-latex-util-trim";
 import {
     parse as parseTikz,
     PathSpec,
     PathSpecNode,
     printRaw as tikzPrintRaw,
-} from "@unified-latex/unified-latex-ctan/package/tikz";
+} from "@vizex_ru/unified-latex-ctan/package/tikz";
 import { printArgumentPgfkeys } from "./print-argument-pgfkeys";
 
 export function printTikzArgument(

@@ -15,7 +15,7 @@ If you want to expand macros or get a list of macros defined via `\newcommand`.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-macros
+npm install @vizex_ru/unified-latex-util-macros
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

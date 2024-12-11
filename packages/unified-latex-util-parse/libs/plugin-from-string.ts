@@ -1,14 +1,14 @@
 import { Plugin, Parser, unified } from "unified";
-import { environmentInfo, macroInfo } from "@unified-latex/unified-latex-ctan";
-import * as Ast from "@unified-latex/unified-latex-types";
+import { environmentInfo, macroInfo } from "@vizex_ru/unified-latex-ctan";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import {
     EnvInfoRecord,
     MacroInfoRecord,
-} from "@unified-latex/unified-latex-types";
+} from "@vizex_ru/unified-latex-types";
 import {
     unifiedLatexTrimEnvironmentContents,
     unifiedLatexTrimRoot,
-} from "@unified-latex/unified-latex-util-trim";
+} from "@vizex_ru/unified-latex-util-trim";
 import { unifiedLatexAstComplier } from "./compiler-ast";
 import { unifiedLatexFromStringMinimal } from "./plugin-from-string-minimal";
 import { unifiedLatexProcessMacrosAndEnvironmentsWithMathReparse } from "./process-macros-and-environments";

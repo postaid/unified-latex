@@ -1,10 +1,10 @@
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import {
     EnvInfo,
     MacroInfo,
     MacroInfoRecord,
-} from "@unified-latex/unified-latex-types";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+} from "@vizex_ru/unified-latex-types";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 
 /**
  * Creates a macro matching function that uses a `SpecialMacroSpec` or list of macros

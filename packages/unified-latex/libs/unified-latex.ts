@@ -1,14 +1,14 @@
 import { unified } from "unified";
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import {
     unifiedLatexAstComplier,
     unifiedLatexFromString,
     PluginOptions as ParserPluginOptions,
-} from "@unified-latex/unified-latex-util-parse";
+} from "@vizex_ru/unified-latex-util-parse";
 import {
     unifiedLatexStringCompiler,
     PluginOptions as StringCompilerPluginOptions,
-} from "@unified-latex/unified-latex-util-to-string";
+} from "@vizex_ru/unified-latex-util-to-string";
 
 /**
  * Use `unified()` to a string to an `Ast.Ast` and then pretty-print it.

@@ -16,7 +16,7 @@ If you want to convert LaTeX to Markdown.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-to-mdast
+npm install @vizex_ru/unified-latex-to-mdast
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

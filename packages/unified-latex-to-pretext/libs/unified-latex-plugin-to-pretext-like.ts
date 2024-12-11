@@ -1,19 +1,19 @@
 import * as Hast from "hast";
 import { Plugin, unified } from "unified";
-import { unifiedLatexLintNoTexFontShapingCommands } from "@unified-latex/unified-latex-lint/rules/unified-latex-lint-no-tex-font-shaping-commands";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { deleteComments } from "@unified-latex/unified-latex-util-comments";
+import { unifiedLatexLintNoTexFontShapingCommands } from "@vizex_ru/unified-latex-lint/rules/unified-latex-lint-no-tex-font-shaping-commands";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { deleteComments } from "@vizex_ru/unified-latex-util-comments";
 import {
     anyEnvironment,
     anyMacro,
     match,
-} from "@unified-latex/unified-latex-util-match";
-import { printRaw } from "@unified-latex/unified-latex-util-print-raw";
+} from "@vizex_ru/unified-latex-util-match";
+import { printRaw } from "@vizex_ru/unified-latex-util-print-raw";
 import {
     replaceNode,
     unifiedLatexReplaceStreamingCommands,
-} from "@unified-latex/unified-latex-util-replace";
-import { EXIT, SKIP, visit } from "@unified-latex/unified-latex-util-visit";
+} from "@vizex_ru/unified-latex-util-replace";
+import { EXIT, SKIP, visit } from "@vizex_ru/unified-latex-util-visit";
 import { environmentReplacements as _environmentReplacements } from "./pre-conversion-subs/environment-subs";
 import {
     attachNeededRenderInfo,
@@ -28,9 +28,9 @@ import {
     isMappedEnviron,
 } from "./pre-conversion-subs/break-on-boundaries";
 import { reportMacrosUnsupportedByKatex } from "./pre-conversion-subs/report-unsupported-macro-katex";
-import { htmlLike } from "@unified-latex/unified-latex-util-html-like";
-import { getArgsContent } from "@unified-latex/unified-latex-util-arguments";
-import { s } from "@unified-latex/unified-latex-builder";
+import { htmlLike } from "@vizex_ru/unified-latex-util-html-like";
+import { getArgsContent } from "@vizex_ru/unified-latex-util-arguments";
+import { s } from "@vizex_ru/unified-latex-builder";
 
 type EnvironmentReplacements = typeof _environmentReplacements;
 type MacroReplacements = typeof _macroReplacements;

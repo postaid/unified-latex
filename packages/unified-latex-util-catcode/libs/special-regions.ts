@@ -1,8 +1,8 @@
-import * as Ast from "@unified-latex/unified-latex-types";
-import { match } from "@unified-latex/unified-latex-util-match";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { match } from "@vizex_ru/unified-latex-util-match";
 import { findRegionInArray } from "./find-region";
 import { refineRegions, Region, splitByRegions } from "./regions";
-import { SKIP, visit } from "@unified-latex/unified-latex-util-visit";
+import { SKIP, visit } from "@vizex_ru/unified-latex-util-visit";
 import { reparseMacroNames } from "./reparse-macro-names";
 
 const expl3Find = {

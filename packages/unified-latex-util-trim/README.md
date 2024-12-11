@@ -19,7 +19,7 @@ to deal with both situations.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-trim
+npm install @vizex_ru/unified-latex-util-trim
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

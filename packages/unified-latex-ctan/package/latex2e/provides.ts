@@ -1,8 +1,8 @@
 import {
     MacroInfoRecord,
     EnvInfoRecord,
-} from "@unified-latex/unified-latex-types";
-import { trim } from "@unified-latex/unified-latex-util-trim";
+} from "@vizex_ru/unified-latex-types";
+import { trim } from "@vizex_ru/unified-latex-util-trim";
 import { cleanEnumerateBody } from "../../utils/enumerate";
 
 export const macros: MacroInfoRecord = {

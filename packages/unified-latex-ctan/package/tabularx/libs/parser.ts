@@ -1,10 +1,10 @@
-import { TabularPegParser } from "@unified-latex/unified-latex-util-pegjs";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { match } from "@unified-latex/unified-latex-util-match";
+import { TabularPegParser } from "@vizex_ru/unified-latex-util-pegjs";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { match } from "@vizex_ru/unified-latex-util-match";
 import {
     decorateArrayForPegjs,
     splitStringsIntoSingleChars,
-} from "@unified-latex/unified-latex-util-pegjs";
+} from "@vizex_ru/unified-latex-util-pegjs";
 import * as TabularSpec from "./types";
 
 function createMatchers() {

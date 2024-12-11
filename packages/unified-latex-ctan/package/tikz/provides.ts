@@ -1,9 +1,9 @@
 import {
     MacroInfoRecord,
     EnvInfoRecord,
-} from "@unified-latex/unified-latex-types";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { attachMacroArgsInArray } from "@unified-latex/unified-latex-util-arguments";
+} from "@vizex_ru/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { attachMacroArgsInArray } from "@vizex_ru/unified-latex-util-arguments";
 import { tikzCommandArgumentParser } from "./libs/tikz-command-argument-parser";
 
 export const macros: MacroInfoRecord = {

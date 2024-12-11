@@ -1,12 +1,12 @@
-import { arg } from "@unified-latex/unified-latex-builder";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { ArgumentParser } from "@unified-latex/unified-latex-types";
+import { arg } from "@vizex_ru/unified-latex-builder";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { ArgumentParser } from "@vizex_ru/unified-latex-types";
 import {
     ArgSpecAst as ArgSpec,
     parse as parseArgspec,
-} from "@unified-latex/unified-latex-util-argspec";
+} from "@vizex_ru/unified-latex-util-argspec";
 import { gobbleSingleArgument } from "./gobble-single-argument";
-import { updateRenderInfo } from "@unified-latex/unified-latex-util-render-info";
+import { updateRenderInfo } from "@vizex_ru/unified-latex-util-render-info";
 
 /**
  * Gobbles an argument of whose type is specified

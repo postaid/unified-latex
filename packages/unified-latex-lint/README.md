@@ -16,7 +16,7 @@ If you are building a linter for LaTeX code.
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-lint
+npm install @vizex_ru/unified-latex-lint
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

@@ -1,17 +1,17 @@
-import { env, arg } from "@unified-latex/unified-latex-builder";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { getNamedArgsContent } from "@unified-latex/unified-latex-util-arguments";
+import { env, arg } from "@vizex_ru/unified-latex-builder";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { getNamedArgsContent } from "@vizex_ru/unified-latex-util-arguments";
 import {
     anyEnvironment,
     anyMacro,
     match,
-} from "@unified-latex/unified-latex-util-match";
-import { replaceNode } from "@unified-latex/unified-latex-util-replace";
+} from "@vizex_ru/unified-latex-util-match";
+import { replaceNode } from "@vizex_ru/unified-latex-util-replace";
 import {
     splitOnMacro,
     unsplitOnMacro,
-} from "@unified-latex/unified-latex-util-split";
-import { visit } from "@unified-latex/unified-latex-util-visit";
+} from "@vizex_ru/unified-latex-util-split";
+import { visit } from "@vizex_ru/unified-latex-util-visit";
 import { VFileMessage } from "vfile-message";
 import { makeWarningMessage } from "./utils";
 

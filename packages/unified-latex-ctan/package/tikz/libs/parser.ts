@@ -1,8 +1,8 @@
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import * as TikzSpec from "./types";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { decorateArrayForPegjs } from "@unified-latex/unified-latex-util-pegjs";
-import { TikzPegParser } from "@unified-latex/unified-latex-util-pegjs";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { decorateArrayForPegjs } from "@vizex_ru/unified-latex-util-pegjs";
+import { TikzPegParser } from "@vizex_ru/unified-latex-util-pegjs";
 
 type TikzParseOptions = {
     startRule?: "path_spec" | "foreach_body";

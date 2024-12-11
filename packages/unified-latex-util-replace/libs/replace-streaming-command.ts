@@ -1,14 +1,14 @@
-import * as Ast from "@unified-latex/unified-latex-types";
-import { match } from "@unified-latex/unified-latex-util-match";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { match } from "@vizex_ru/unified-latex-util-match";
 import {
     splitOnCondition,
     unsplitOnMacro,
-} from "@unified-latex/unified-latex-util-split";
+} from "@vizex_ru/unified-latex-util-split";
 import {
     trim,
     trimEnd,
     trimStart,
-} from "@unified-latex/unified-latex-util-trim";
+} from "@vizex_ru/unified-latex-util-trim";
 import { firstSignificantNode } from "./utils/significant-node";
 import { replaceStreamingCommandInArray } from "./utils/replace-streaming-command-in-array";
 import { wrapSignificantContent } from "./utils/wrap-significant-content";

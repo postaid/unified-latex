@@ -1,7 +1,7 @@
 import { Plugin } from "unified";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { MacroInfoRecord } from "@unified-latex/unified-latex-types";
-import { visit } from "@unified-latex/unified-latex-util-visit";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { MacroInfoRecord } from "@vizex_ru/unified-latex-types";
+import { visit } from "@vizex_ru/unified-latex-util-visit";
 import { attachMacroArgsInArray } from "./attach-arguments";
 
 type PluginOptions = { macros: MacroInfoRecord } | undefined;

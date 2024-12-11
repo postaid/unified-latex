@@ -1,7 +1,7 @@
 import type { Plugin } from "unified";
-import * as Ast from "@unified-latex/unified-latex-types";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { visit } from "@unified-latex/unified-latex-util-visit";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { visit } from "@vizex_ru/unified-latex-util-visit";
 import { trim, trimEnd, trimStart } from "./trim";
 
 type PluginOptions = void;

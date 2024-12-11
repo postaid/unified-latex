@@ -1,12 +1,12 @@
 import util from "util";
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import {
     findExpl3AndAtLetterRegionsInArray,
     reparseExpl3AndAtLetterRegions,
 } from "../libs/special-regions";
 
 import { strToNodesMinimal } from "../../test-common";
-import { match } from "@unified-latex/unified-latex-util-match";
+import { match } from "@vizex_ru/unified-latex-util-match";
 
 /* eslint-env jest */
 

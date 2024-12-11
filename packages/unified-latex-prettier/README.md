@@ -17,7 +17,7 @@ You should probably use the `prettier-plugin-latex` package instead of directly 
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-prettier
+npm install @vizex_ru/unified-latex-prettier
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

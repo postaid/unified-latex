@@ -11,7 +11,7 @@ import type { Options as EngineOptions } from "unified-engine";
 import type { Option } from "./schema";
 import { PluggableList } from "unified";
 import { availableLints } from "../lints";
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import { parseMacroExpansion } from "../macros/parse-macro-expansion";
 
 type RequiredEngineOptions = Required<

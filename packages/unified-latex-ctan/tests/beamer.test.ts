@@ -1,7 +1,7 @@
 import util from "util";
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import { strToNodes } from "../../test-common";
-import { arg, args, m } from "@unified-latex/unified-latex-builder";
+import { arg, args, m } from "@vizex_ru/unified-latex-builder";
 
 /* eslint-env jest */
 

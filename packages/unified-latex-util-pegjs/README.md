@@ -21,7 +21,7 @@ If you are building libraries to parse specific LaTeX syntax (e.g., to parse `ta
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-pegjs
+npm install @vizex_ru/unified-latex-util-pegjs
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

@@ -1,12 +1,12 @@
 /* eslint-disable no-fallthrough */
-import { arg } from "@unified-latex/unified-latex-builder";
-import * as Ast from "@unified-latex/unified-latex-types";
+import { arg } from "@vizex_ru/unified-latex-builder";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import {
     ArgSpecAst as ArgSpec,
     printRaw,
-} from "@unified-latex/unified-latex-util-argspec";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { scan } from "@unified-latex/unified-latex-util-scan";
+} from "@vizex_ru/unified-latex-util-argspec";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { scan } from "@vizex_ru/unified-latex-util-scan";
 
 /**
  * Gobbles an argument of whose type is specified

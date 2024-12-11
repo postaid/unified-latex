@@ -1,5 +1,5 @@
 import { unified } from "unified";
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import { unifiedLatexStringCompiler } from "./compiler-string";
 
 const processor = unified()

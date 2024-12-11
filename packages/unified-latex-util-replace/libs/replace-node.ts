@@ -1,5 +1,5 @@
-import * as Ast from "@unified-latex/unified-latex-types";
-import { visit, VisitInfo } from "@unified-latex/unified-latex-util-visit";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { visit, VisitInfo } from "@vizex_ru/unified-latex-util-visit";
 
 /**
  * Recursively replace nodes in `ast`. The `visitor` function is called on each node. If

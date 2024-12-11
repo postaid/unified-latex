@@ -1,6 +1,6 @@
 import { VFile } from "unified-lint-rule/lib";
 import util from "util";
-import { processLatexViaUnified } from "@unified-latex/unified-latex";
+import { processLatexViaUnified } from "@vizex_ru/unified-latex";
 import { unifiedLatexLintArgumentFontShapingCommands } from "../rules/unified-latex-lint-argument-font-shaping-commands";
 
 /* eslint-env jest */

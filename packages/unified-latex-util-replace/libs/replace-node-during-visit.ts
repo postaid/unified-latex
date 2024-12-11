@@ -1,5 +1,5 @@
-import { VisitInfo } from "@unified-latex/unified-latex-util-visit";
-import * as Ast from "@unified-latex/unified-latex-types";
+import { VisitInfo } from "@vizex_ru/unified-latex-util-visit";
+import * as Ast from "@vizex_ru/unified-latex-types";
 
 /**
  * Replaces the current node with `replacement`. It is assumed that the current

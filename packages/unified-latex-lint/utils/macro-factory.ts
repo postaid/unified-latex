@@ -1,4 +1,4 @@
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 
 /**
  * Factory function that returns a wrapper which wraps the passed in `content`

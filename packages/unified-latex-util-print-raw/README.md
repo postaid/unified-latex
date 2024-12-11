@@ -15,7 +15,7 @@ If you want to directly print an `Ast.Ast` to a string without any pretty printi
 ## Install
 
 ```bash
-npm install @unified-latex/unified-latex-util-print-raw
+npm install @vizex_ru/unified-latex-util-print-raw
 ```
 
 This package contains both esm and commonjs exports. To explicitly access the esm export,

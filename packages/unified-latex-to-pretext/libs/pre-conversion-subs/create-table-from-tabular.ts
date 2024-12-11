@@ -1,12 +1,12 @@
-import * as Ast from "@unified-latex/unified-latex-types";
-import { htmlLike } from "@unified-latex/unified-latex-util-html-like";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { htmlLike } from "@vizex_ru/unified-latex-util-html-like";
 import {
     parseTabularSpec,
     TabularColumn,
-} from "@unified-latex/unified-latex-ctan/package/tabularx";
-import { parseAlignEnvironment } from "@unified-latex/unified-latex-util-align";
-import { getArgsContent } from "@unified-latex/unified-latex-util-arguments";
-import { trim } from "@unified-latex/unified-latex-util-trim";
+} from "@vizex_ru/unified-latex-ctan/package/tabularx";
+import { parseAlignEnvironment } from "@vizex_ru/unified-latex-util-align";
+import { getArgsContent } from "@vizex_ru/unified-latex-util-arguments";
+import { trim } from "@vizex_ru/unified-latex-util-trim";
 
 type Attributes = Record<string, string | Record<string, string>>;
 

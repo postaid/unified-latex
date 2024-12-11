@@ -1,6 +1,6 @@
-import * as Ast from "@unified-latex/unified-latex-types";
+import * as Ast from "@vizex_ru/unified-latex-types";
 import { Plugin } from "unified";
-import { attachMacroArgs } from "@unified-latex/unified-latex-util-arguments";
+import { attachMacroArgs } from "@vizex_ru/unified-latex-util-arguments";
 
 type PluginOptions = {
     macros: { name: string; signature: string }[];

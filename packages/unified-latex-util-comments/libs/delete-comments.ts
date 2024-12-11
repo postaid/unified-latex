@@ -1,6 +1,6 @@
-import * as Ast from "@unified-latex/unified-latex-types";
-import { match } from "@unified-latex/unified-latex-util-match";
-import { replaceNode } from "@unified-latex/unified-latex-util-replace";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { match } from "@vizex_ru/unified-latex-util-match";
+import { replaceNode } from "@vizex_ru/unified-latex-util-replace";
 
 /**
  * Returns a new AST with all comments removed. Care is taken to preserve whitespace.

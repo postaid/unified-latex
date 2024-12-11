@@ -1,6 +1,6 @@
-import * as Ast from "@unified-latex/unified-latex-types";
-import { anyMacro, match } from "@unified-latex/unified-latex-util-match";
-import { visit } from "@unified-latex/unified-latex-util-visit";
+import * as Ast from "@vizex_ru/unified-latex-types";
+import { anyMacro, match } from "@vizex_ru/unified-latex-util-match";
+import { visit } from "@vizex_ru/unified-latex-util-visit";
 import { KATEX_SUPPORT } from "./katex-subs";
 import { VFileMessage } from "vfile-message";
 import { makeWarningMessage } from "./utils";
